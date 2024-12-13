@@ -1,0 +1,15 @@
+yoruba_dictionary = {
+    'wa' : "Come",
+    'karo' : "Good morning",
+    'lo' : "go",
+    'je' : "eat",
+    'mu' : "drink",
+    'oju' : "eyes",
+    'okurin' : "man",
+    'obirin' : "woman",
+    'joko' : "seat",
+    'dide' : "stand",
+    'ese' : "leg",
+    'omo' : "child",
+    'omi' : "water",
+}

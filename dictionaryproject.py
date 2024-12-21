@@ -5,12 +5,12 @@ from igbo_dic_module import igbo_dictionary
 
 window = Tk()
 window.geometry("600x400")
-window.title("Multi-Language Dictionary")
+window.title("Naija Dictionary")
 
 languages = {"Yoruba": yoruba_dictionary,
              "Igbo": igbo_dictionary}
 
-language_label = Label(window, text="Select a Language:", font=("Arial", 16))
+language_label = Label(window, text="Naija Dictionary", font=("Arial", 16))
 language_label.pack(pady=20)
 
 def show_search_interface(language):

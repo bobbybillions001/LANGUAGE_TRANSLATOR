@@ -46,7 +46,7 @@ def display_language_options():
     for widget in window.winfo_children():
         widget.destroy()
 
-    language_label = Label(window, text="Select a Language:", font=("Arial", 16))
+    language_label = Label(window, text="Naija Dictionary", font=("Arial", 16))
     language_label.pack(pady=20)
 
     for language in languages.keys():

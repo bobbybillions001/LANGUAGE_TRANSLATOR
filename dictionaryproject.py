@@ -2,13 +2,15 @@ from tkinter import Entry, StringVar, Tk, Button, Label
 
 from yoruba_dic_module import yoruba_dictionary
 from igbo_dic_module import igbo_dictionary
+from mada_dic_module import mada_dictionary
 
 window = Tk()
 window.geometry("600x400")
 window.title("Naija Dictionary")
 
 languages = {"Yoruba": yoruba_dictionary,
-             "Igbo": igbo_dictionary}
+             "Igbo": igbo_dictionary,
+             "Mada": mada_dictionary,}
 
 language_label = Label(window, text="Naija Dictionary", font=("Arial", 16))
 language_label.pack(pady=20)
@@ -22,8 +24,7 @@ def show_search_interface(language):
     entry_text = Entry(window, font=("Arial", 14))
     entry_text.pack(pady=10)
 
-    result = StringVar()
-    result_label = Label(window, textvariable=result, font=("Arial", 16), fg="blue")
+    result = StringVar();  result_label = Label(window, textvariable=result, font=("Arial", 16), fg="blue")
     result_label.pack(pady=10)
 
     def search():
